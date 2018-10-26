@@ -1,33 +1,33 @@
 {
-    "name": "k-palindrome",
-    "version": "1.0.2",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "prepublishOnly": "nscript scripts/prepublish.js",
-        "publish": "nscript scripts/publish.js"
-    },
-    "man": [
-        "./man/doc.1",
-        "./man/doc.2"
-    ],
-    "keywords": [],
-    "author": {
-        "name": "Kevin Coulibaly",
-        "email": "kcoulibaly@b-flower.com"
-    },
-    "maintainers": [
-        "Kevin Coulibaly <kcoulibaly@b-flower.com>"
-    ],
-    "license": "ISC",
-    "dependencies": {},
-    "devDependencies": {
-        "nscript": "^0.1.10",
-        "eslint": "^5.7.0",
-        "eslint-plugin-import": "^2.14.0",
-        "eslint-plugin-node": "^7.0.1",
-        "eslint-plugin-promise": "^4.0.1",
-        "eslint-plugin-standard": "^4.0.0"
-    }
+  "name": "k-palindrome",
+  "version": "1.0.3",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "nscript scripts/prepublish.js",
+    "publish": "nscript scripts/publish.js"
+  },
+  "man": [
+    "./man/doc.1",
+    "./man/doc.2"
+  ],
+  "keywords": [],
+  "author": {
+    "name": "Kevin Coulibaly",
+    "email": "kcoulibaly@b-flower.com"
+  },
+  "maintainers": [
+    "Kevin Coulibaly <kcoulibaly@b-flower.com>"
+  ],
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "nscript": "^0.1.10",
+    "eslint": "^5.7.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0"
+  }
 }
