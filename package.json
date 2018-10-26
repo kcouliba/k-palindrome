@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "jest --watch",
+    "test": "jest",
     "prepublishOnly": "nscript scripts/prepublish.js",
     "publish": "nscript scripts/publish.js"
   },
@@ -23,11 +24,12 @@
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
-    "nscript": "^0.1.10",
     "eslint": "^5.7.0",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-node": "^7.0.1",
     "eslint-plugin-promise": "^4.0.1",
-    "eslint-plugin-standard": "^4.0.0"
+    "eslint-plugin-standard": "^4.0.0",
+    "jest": "^23.6.0",
+    "nscript": "^0.1.10"
   }
 }
