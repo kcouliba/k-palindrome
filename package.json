@@ -6,8 +6,12 @@
   "scripts": {
     "dev": "jest --watch",
     "test": "jest",
+    "eslint-check": "eslint --print-config . | eslint-config-prettier-check",
+    "lint": "eslint .",
     "prepublishOnly": "nscript scripts/prepublish.js",
-    "publish": "nscript scripts/publish.js"
+    "publish": "nscript scripts/publish.js",
+    "preversion": "eslint && jest",
+    "postversion": "git push && git push --tags"
   },
   "man": [
     "./man/doc.1",
@@ -25,6 +29,7 @@
   "dependencies": {},
   "devDependencies": {
     "eslint": "^5.7.0",
+    "eslint-config-standard": "^12.0.0",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-node": "^7.0.1",
     "eslint-plugin-promise": "^4.0.1",

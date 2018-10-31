@@ -1,4 +1,6 @@
-const palindrome = require('./palindrome')
+/* eslint-disable no-undef */
+
+var palindrome = require('./palindrome')
 
 describe('palindrome', function() {
   it('should return true if text is a palindrome', function() {
@@ -9,3 +11,5 @@ describe('palindrome', function() {
     expect(palindrome('car')).toBeFalsy()
   })
 })
+
+/* eslint-enable no-undef */
